@@ -1,0 +1,27 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+#headerWrapper {
+    header{padding: 2rem $gutter;}
+    h1 {font-size: 2rem;}
+}
+
+
+nav {
+    ul {
+    a {
+      img {display: none;}  
+      span {display: block;}
+    }
+  }
+}
+
+#mainWrapper {
+
+  section#contact{
+      flex-direction: row;
+        a {
+          flex-basis: 50%;
+        }
+
+    }
+  }
