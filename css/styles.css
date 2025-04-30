@@ -382,13 +382,13 @@ main h1 {
 }
 main p {
   padding: 0.5rem 10px;
-  color: #333;
+  color: #ffffff;
   line-height: 150%;
 }
 
 #mainWrapper section {
   height: 100vh;
-  margin-top: -16px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -422,7 +422,7 @@ main p {
 }
 #mainWrapper .card {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: white;
   border-radius: 5px;
   width: 50%;
@@ -433,9 +433,13 @@ main p {
   height: min-content;
 }
 #mainWrapper .card h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(255, 255, 255);
   width: 100%;
   text-align: center;
+  background-color: white;
+}
+#mainWrapper .card h2 p {
+  color: white;
 }
 #mainWrapper .card img {
   width: 50%;

@@ -1,14 +1,14 @@
 // get me a list of all the items to watch
-const myListOfItems = document.querySelectorAll('section')
+const myListOfItems = document.querySelectorAll('fix')
 
 // a comma deliniated list of name/value pairs controlling how the observer works
 let observerOptions = {
     //null is the default and references the viewport
     root: null,
     //alters the viewport. negative values decrease the size.
-    rootMargin: '0px 0px -36px 0px',
+    rootMargin: '0px 0px 0px 0px',
     //0 is barely showing, 1 is fully showing
-    threshold: .25
+    threshold: 0.25
   }
 
 // AllItems is a list of all elements being watched
@@ -25,7 +25,7 @@ function hiliteNav(x) {
 	document.querySelector('.active').classList.remove('active');
 	let theid = x.getAttribute('id');
 	let newActiveLink = document.querySelector(`[href="#${theid}"]`)
-	newActiveLink.parentElement.classList.add('active');
+	newActiveLink.parentElement.classList.add('fix');
 }
 
 //call the function for each element in the list
